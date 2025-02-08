@@ -9,13 +9,30 @@
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <style>
       .section1-1 {
-          margin-left: 290px; 
+          margin-left: 210px; 
       }
       .section1-2 {
-          margin-left: 90px;
+          margin-left: 95px;
       }
       .ilustration-1 {
           height: 200px;
+          height: 290px;
+      }
+
+      @media only screen and  (max-width: 600px) {
+        .section1-1 {
+          margin-left: auto; 
+          margin-right: auto;
+          margin-top: 30px;
+      }
+      .section1-2 {
+          margin-left: auto;
+          margin-right: auto;
+          text-align:center
+      }
+      .ilustration-1 {
+          height:300px;
+      }
       }
     </style>
 </head>
@@ -66,8 +83,8 @@
         </div>
       </nav>
 </header>
-<main class="container-fluid" style="margin-top: 67.6px;">
-  <section class="row bg-primary text-white">
+<main class="container-fluid" style="margin-top: 67px;">
+  <section class="row bg-primary text-white py-5">
     <div class="col-sm-6 order-md-last">
         <div class="section1-2">
           <img src="Images/Benedetta-removebg-preview.png" alt="ilustration-1" class="ilustration-1">
@@ -79,6 +96,29 @@
           <p>Jadi hari ini keta belajar hal yang sangat yang berguna dan yang sangat yang bermanfaat</p>
           <button class="btn btn-lg btn-warning mt-4">Button</button>
         </div>
+  </section>
+  <section class="row py-5">
+    <div class="col text-center">
+      <strong>Aku stress</strong>
+      <h1>Tolong aku please</h1>
+      <div class="lead mb-4">Fabian Aulia Rachman</div>
+      <div class="row justify-content-center">
+        <div class="col-sm-5">
+          <div class="row">
+            <div class="col-sm-8 mb-3">
+              <input type="text" class="form-control" placeholder="Aku muak">
+            </div>
+            <div class="col-sm-4 mb-3">
+              <button class="btn btn-warning">Button Section</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4>
+         BLA BLA BLA
+         <small class="text-muted">wkwkk</small>
+      </h4>
+    </div>
   </section>
 </main>
 <footer class="container-fluid">
