@@ -27,7 +27,7 @@
      .nav-tabs {
       --bs-nav-tabs-border-color: #fff;
       --bs-nav-tabs-link-active-border-color: #fff #fff #000;
-}
+      }
         .link-tab-title {
           font-size: 1.5rem;
           font-weight: 700;
@@ -54,7 +54,35 @@
           letter-spacing: .02em;
           line-height: 2.875rem;
         }
-      @media only screen and  (max-width: 600px) {
+        .picture-tab-title  {
+          font-size: 1.5rem;
+          font-weight: 700;
+          letter-spacing: .02em;
+          line-height: 1.688rem;
+          color: #686868;
+        }
+        .picture-tab-desc  {
+          font-size: 1rem;
+          letter-spacing: .005em;
+          line-height: 1.5rem;
+          color: #686868;
+        }
+        .social-icon  {
+          font-size: 30px;
+        }
+        .social-icon:hover  {
+          color: #fff !important;
+        }
+        .menu-footer {
+          display: block;
+          text-decoration: none;
+          color: rgba(255,193,7,0.70);
+        }
+        .menu-footer:hover{
+          color: rgba(255,193,7,1) !important;
+        }
+
+      @media only screen and (max-width: 600px) {
         .section1-1 {
           margin-left: auto; 
           margin-right: auto;
@@ -79,6 +107,13 @@
       .ilustration-3 {
          height: 200px;
          margin-bottom: 20px;
+      }
+      .quote {
+        margin-right: 0;
+        text-align: center;
+      }
+      .img-person {
+        margin-top: 30px;
       }
       #footer-copyright {
         text-align: center;
@@ -148,42 +183,48 @@
   </section>
   <section class="row py-5">
     <div class="col text-center">
+      <!--lorem2-->
       <strong>Aku stress</strong>
+      <!--lorem5-->
       <h1>Tolong aku please</h1>
+      <!--lorem8-->
       <div class="lead mb-4">Fabian Aulia Rachman</div>
       <div class="row justify-content-center">
         <div class="col-sm-5">
           <div class="row">
-            <div class="col-sm-8 mb-3">
+            <div class="col-sm-9 mb-3">
               <input type="text" class="form-control" placeholder="Aku muak">
             </div>
-            <div class="col-sm-4 mb-3">
+            <div class="col-sm-3 mb-3">
               <button class="btn btn-warning">Button Section</button>
             </div>
           </div>
         </div>
       </div>
       <h4>
+        <!--lorem3-->
          BLA BLA BLA
+         <!--lorem2-->
          <small class="text-muted">wkwkk</small>
       </h4>
     </div>
   </section>
     <section class="row section-bg-custom py-5">
       <div class="col text-center">
+        <!--lorem5-->
         <h1>masyaallah</h1>
         <div class="row justify-content-center">
           <div class="col-sm-5">
-            <p class="lead">
-              <small>Siapa sangka cuy akan panjang</small>
-            </p>
+            <!--lorem20-->
+            <p class="lead"><small>Siapa sangka cuy akan panjang</small></p>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-sm-2">
-            <div class="card">
+            <div class="card mb-3">
               <div class="card-body" style="text-align: left;">
                 <h5>Title Card 1</h5>
+                <!--lorem6-->
                 <small class="text muted">Sakalaka</small>
                 <div class="my-4">
                   <div class="badge bg-success">Badge</div>
@@ -240,12 +281,13 @@
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="card">
+            <div class="card mb-3">
               <div class="card-body" style="text-align: left;">
                 <h5>Title Card 2</h5>
+                <!--lorem6-->
                 <small class="text muted">Sakalaka</small>
                 <div class="my-4">
-                  <div class="badge bg-success">Badge</div>
+                  <div class="badge bg-success">Badge</div> <del>Lorem, ipsum</del>
                 </div>
                 <h4><div class="text-warning" style="display: inline;">Warning</div> Text</h4>
                 <div class="text-center my-4">
@@ -299,17 +341,18 @@
             </div>
           </div>
           <div class="col-sm-2">
-            <div class="card border-warning">
+            <div class="card border-warning mb-3">
               <div class="card-header">Card Header</div>
               <div class="card-body" style="text-align: left;">
                 <h5>Title Card 3</h5>
+                <!--lorem6-->
                 <small class="text muted">Sakalaka</small>
                 <div class="my-4">
-                  <div class="badge bg-success">Badge</div>
+                  <span class="badge bg-danger">Badge</span>  <del>Lorem, ipsum</del>
                 </div>
                 <h4><div class="text-warning" style="display: inline;">Warning</div> Text</h4>
                 <div class="text-center my-4">
-                  <button class="btn btn-outline-warning">Button Card</button>
+                  <button type="button" class="btn btn-warning"> Button Card</button>
                 </div>
                 <div class="text-muted">Flex Row</div>
                 <div class="d-flex flex-row justify-content-between">
