@@ -13,9 +13,11 @@
     <style>
       .section1-1 {
           margin-left: 290px; 
+          background-color: #FF0033;
       }
       .section1-2 {
           margin-left: 95px;
+          background-color: #FF0033;
       }
       .ilustration-1 {
           height: 400px;
@@ -31,9 +33,12 @@
           background-color: #e20000;
       }
 
+      .section5-1 {
+          color: white;
+      }
+
       .navbar {
-        background-color: #e20000 !important;
-}
+        background-color: #ff4545 !important;
       }
      .nav-tabs {
       --bs-nav-tabs-border-color: #e20000;
@@ -93,6 +98,33 @@
           color: rgba(255,193,7,1) !important;
         }
 
+        .section9-9{
+          background-color: #FF0033 !important;
+        }
+
+        .section9-8{
+          color: #FF0033 !important;
+        }
+
+        .section9-7{
+  background-color: transparent;
+  color: #FF0033;
+  border: 2px solid #FF0033;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.section9-7:hover {
+  background-color: #FF0033;
+  color: white;
+}
+        
+.section9-6 {
+  color: white;
+}
       @media only screen and (max-width: 600px) {
         .section1-1 {
           margin-left: auto; 
@@ -180,13 +212,13 @@
       </nav>
 </header>
 <main class="container-fluid" style="margin-top: 67px;">
-  <section class="row bg-black text-white py-5">
-    <div class="col-sm-6 order-md-last">
+  <section class="row bg-black text-white py-5 section9-9">
+    <div class="col-sm-6 order-md-last section9-9">
         <div class="section1-2"data-aos="fade-left">
-          <img src="Images/images.jpeg" alt="ilustration-1" class="ilustration-1 animate__animated animate__pulse animate__infinite	infinite">
+          <img src="Images/WhatsApp Image 2025-04-26 at 14.02.32_f426a0ec.jpg" alt="ilustration-1" class="ilustration-1 animate__animated animate__fadeIn animate__infinite	infinite">
         </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 section9-6">
         <div class="section1-1">
           <h1 class="mb-4">Innovating for a Better Future</h1>
           <p>From a young dreamer in South Africa to one of the most influential minds in the world
@@ -221,8 +253,8 @@
       </h4>
     </div>
   </section>
-    <section class="row section-bg-custom py-5">
-      <div class="col text-center">
+    <section class="row section-bg-custom py-3">
+      <div class="col text-center text-light">
         <!--lorem5-->
         <h1>Journey Through The Ages</h1>
         <div class="row justify-content-center">
@@ -241,7 +273,7 @@
                 <div class="my-4">
                   <div class="badge bg-success">Dreamer</div>
                 </div>
-                <h4><div class="text-warning" style="display: inline;">Success isn’t guaranteed,</div> but effort is.</h4>
+                <h4><div class="section9-8" style="display: inline;">Success isn’t guaranteed,</div> but effort is.</h4>
                 <div class="text-center my-4">
                   <button class="btn btn-outline-warning">See the Early Days</button>
                 </div>
@@ -301,7 +333,7 @@
                 <div class="my-4">
                   <div class="badge bg-warning text-dark">Startup Journey</div>
                 </div>
-                <h4><div class="text-warning" style="display: inline;">Your first venture</div> won’t be your last challenge.</h4>
+                <h4><div class="section9-8" style="display: inline;">Your first venture</div> won’t be your last challenge.</h4>
                 <div class="text-center my-4">
                   <button class="btn btn-outline-warning">Explore First Steps</button>
                 </div>
@@ -362,7 +394,7 @@
                 <div class="my-4">
                   <span class="badge bg-danger">Tesla's Struggles</span>
                 </div>
-                <h4><div class="text-warning" style="display: inline;">The road to innovation</div> is paved with failures.</h4>
+                <h4><div class="section9-8" style="display: inline;">The road to innovation</div> is paved with failures.</h4>
                 <div class="text-center my-4">
                   <button type="button" class="btn btn-outline-warning">Breakthrough Moments</button>
                 </div>
@@ -422,7 +454,7 @@
                 <div class="my-4">
                   <span class="badge bg-warning text-dark">Mission in Progress</span>
                 </div>
-                <h4><div class="text-warning" style="display: inline;">The impossible is</div> just an idea waiting to be proven.</h4>
+                <h4><div class="section9-8" style="display: inline;">The impossible is</div> just an idea waiting to be proven.</h4>
                 <div class="text-center my-4">
                   <button type="button" class="btn btn-outline-warning">The Road Ahead</button>
                 </div>
@@ -478,7 +510,7 @@
     </section>
     <section class="row section-bg-custom justify-content-center py-5">
       <div class="col-sm-8">
-        <div class="card bg-black text-light">
+        <div class="card bg-light section9-8">
           <div class="card-body">
             <div class="row p-4">
               <div class="col-sm-6 order-md-last">
@@ -489,7 +521,7 @@
                 <h1 class="mb-4">Humble Beginnings</h1>
                 <!--lorem25-->
                 <h5>Every great journey starts with a dream. Born in South Africa, young Elon Musk had big ambitions but faced early struggles in school. Despite challenges, his passion for technology pushed him forward.</h5>
-                <button class="btn btn-lg btn-outline-light mt-4">I think it is possible for ordinary people to choose to be extraordinary.</button>
+                <button class="btn btn-round btn-outline-light mt-4 section9-7">I think it is possible for ordinary people to choose to be extraordinary.</button>
               </div>
             </div>
           </div>
@@ -504,7 +536,7 @@
         </div>
         <div class="col-sm-6 section5-1">
           <!--lorem2-->
-          <h5 class="text-muted">The First Steps into Tech</h5>
+          <h5>The First Steps into Tech</h5>
           <!--lorem4-->
           <h1>Building the Foundation</h1>
           <!--lorem20-->
@@ -521,7 +553,7 @@
         </div>
         <div class="col-sm-6 section5-1">
           <!--lorem3-->
-          <h5 class="text-muted">Overcoming the Edge of Failure</h5>
+          <h5>Overcoming the Edge of Failure</h5>
           <!--lorem5-->
           <h1>Innovating the Future</h1>
           <!--lorem30-->
@@ -539,7 +571,7 @@
         </div>
         <div class="col-sm-6 section5-1">
           <!--lorem3-->
-          <h5 class="text-muted">From Science Fiction to Reality</h5>
+          <h5>From Science Fiction to Reality</h5>
           <!--lorem6-->
           <h1>The Vision for Mars</h1>
           <!--lorem35-->
